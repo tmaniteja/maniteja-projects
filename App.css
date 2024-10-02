@@ -1,0 +1,110 @@
+.restaurant-image{
+  height: 250px;
+  width: 250px;
+}
+.col-2{
+  border:1px solid green;
+
+  
+}
+.col-10{
+  border:1px solid orange;
+  
+}
+.card-img{
+  height: 250px;
+}
+.button_category{
+  border-radius:5px;
+  margin:5px;
+  color:white;
+  background-color: darkcyan;
+}
+.shimmer-card{
+  border: none;
+}
+#header{
+  background-color:limegreen;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+  position: fixed;
+  width: 100%;
+  box-shadow: 3px 3px rgb(189, 187, 187);
+  z-index:2;
+}
+.location-name:hover{
+  background-color: aquamarine;
+  
+}
+.dish-image{
+  height: 115px;
+}
+.menu-toggle{
+  z-index: 1;
+  position: sticky;
+}
+.dishes-display{
+  padding-top: 15px;
+
+}
+.primary-btn{
+  background-color:darkgreen;
+  border-radius: 10px;
+  color: white;
+}
+.cart-button{
+background-color:darkorange;
+border-radius:10px;
+}
+.restaurants-container{
+  margin-top:25px ;
+}
+.restaurant-card{
+  height:150px
+}
+.Header-title{
+  text-decoration: none;
+  color:white;
+}
+.cart-button1{
+  background-color: orangered;
+}
+button.accordion-button.menu-toggle {
+  z-index: 0;
+}
+.navbar{
+  background-color: chartreuse;
+}
+.nav-link:active{
+  color:#fff;
+}
+.nav-link{
+  color: #fff;
+  text-decoration: none;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.nav-link::after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  padding-bottom: 3px;
+  height: 2px;
+  left: 50%;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-link:hover:after{
+  width: 100%; 
+  left: 0; 
+}
+.card:hover{
+scale: 1.04;
+}
